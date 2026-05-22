@@ -1,0 +1,6 @@
+{
+  "name": "Mohinur Zafarjonovna Academy Portal",
+  "description": "Mohinur Zafarjonovna Academy - CEFR va IELTS o'quv markazi uchun to'liq boshqaruv tizimi, online va offline kurslar, arizalar qabul qilish hamda admin paneli.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
