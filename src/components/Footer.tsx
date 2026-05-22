@@ -244,7 +244,7 @@ export default function Footer({ config, setActiveTab }: FooterProps) {
 
             <div className="lg:col-span-3 flex flex-col sm:flex-row lg:flex-col gap-2 justify-end">
               <a 
-                href="https://t.me/xojiakbar_jorayev_uz" 
+                href="https://t.me/langpro_admin1" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-amber-500 font-sans text-slate-950 hover:bg-amber-400 font-extrabold rounded-xl text-xs transition-all cursor-pointer shadow-lg hover:shadow-amber-500/10 shrink-0"
@@ -252,7 +252,7 @@ export default function Footer({ config, setActiveTab }: FooterProps) {
                 <Send className="h-3.5 w-3.5" /> Telegramda bog'lanish
               </a>
               <a 
-                href="https://instagram.com/xojiakbar_jorayev_uz" 
+                href="https://instagram.com/chinobod_yoshlari" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-slate-900 text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800 rounded-xl text-xs font-semibold transition-all cursor-pointer shrink-0"
