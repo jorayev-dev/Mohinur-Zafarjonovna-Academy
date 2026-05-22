@@ -73,11 +73,11 @@ export default function AdminPanelTab({ courses, results, applications, config, 
   // Handle Passcode check
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (pinInput === '1234') {
+    if (pinInput === 'mzacademy2109') {
       setIsAuthorized(true);
       setAuthError('');
     } else {
-      setAuthError("Noto'g'ri PIN kod kiritildi! Qayta urinib ko'ring (Mo'ljal: 1234)");
+      setAuthError("Noto'g'ri PIN kod kiritildi! Qayta urinib ko'ring ");
     }
   };
 
@@ -451,7 +451,7 @@ export default function AdminPanelTab({ courses, results, applications, config, 
 
           <form onSubmit={handleLogin} className="space-y-4 text-left">
             <div>
-              <label className="text-[10px] uppercase font-black tracking-widest text-slate-400 block mb-2">MAXFIY PASSCODE PIN (STANDART: 1234):</label>
+              <label className="text-[10px] uppercase font-black tracking-widest text-slate-400 block mb-2">MAXFIY PASSCODE PIN:</label>
               <input 
                 type="password" 
                 placeholder="••••"
