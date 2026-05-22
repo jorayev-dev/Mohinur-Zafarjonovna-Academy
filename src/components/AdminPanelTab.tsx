@@ -73,7 +73,7 @@ export default function AdminPanelTab({ courses, results, applications, config, 
   // Handle Passcode check
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (pinInput === 'mzacademy2109') {
+    if (pinInput === 'mz2109') {
       setIsAuthorized(true);
       setAuthError('');
     } else {
